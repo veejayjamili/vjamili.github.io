@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Blog — Jordan Cruz</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+
+  <aside class="sidebar">
+    <div class="avatar">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg>
+    </div>
+    <h1 class="sidebar__name">Jordan Cruz</h1>
+    <span class="sidebar__role">Frontend Developer</span>
+
+    <div class="sidebar__divider"></div>
+
+    <div class="sidebar__info">
+      <div class="info__row">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6l9 6 9-6M3 6v12h18V6"/></svg>
+        <span>
+          <span class="info__label">Email</span>
+          <span class="info__value">hello@jordancruz.dev</span>
+        </span>
+      </div>
+      <div class="info__row">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-6.4-7-11a7 7 0 1114 0c0 4.6-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>
+          <span class="info__label">Location</span>
+          <span class="info__value">Manila, Philippines</span>
+        </span>
+      </div>
+    </div>
+
+    <div class="sidebar__socials">
+      <a href="https://linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 11-.02 5 2.5 2.5 0 01.02-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-1.96 3.76-1.96 4.02 0 4.76 2.65 4.76 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.87 0-2.16 1.46-2.16 2.96V21H9z"/></svg>
+      </a>
+      <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.5 2.87 8.32 6.84 9.67.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.21-3.37-1.21-.45-1.18-1.1-1.5-1.1-1.5-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.55 2.33 1.1 2.9.84.09-.66.34-1.1.62-1.36-2.22-.26-4.56-1.13-4.56-5.02 0-1.11.38-2.02 1.02-2.73-.1-.26-.44-1.31.1-2.73 0 0 .84-.27 2.75 1.04a9.4 9.4 0 015 0c1.9-1.31 2.74-1.04 2.74-1.04.55 1.42.2 2.47.1 2.73.64.71 1.02 1.62 1.02 2.73 0 3.9-2.35 4.76-4.58 5.01.36.32.68.93.68 1.88 0 1.36-.01 2.45-.01 2.79 0 .27.18.6.69.49A10.02 10.02 0 0022 12.25C22 6.58 17.52 2 12 2z"/></svg>
+      </a>
+      <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Twitter / X">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 4h-3.3l-3.2 4.2L9.6 4H4l6.4 8.4L4.3 20h3.3l3.7-4.8L15.4 20H21l-6.8-8.9z"/></svg>
+      </a>
+    </div>
+  </aside>
+
+  <div class="content">
+
+    <nav class="topnav">
+      <a href="index.html">About</a>
+      <a href="resume.html">Resume</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="blog.html" class="active">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <p class="eyebrow">// 04 — blog</p>
+    <h2 class="page__title">Writing</h2>
+    <div class="title__underline"></div>
+
+    <p class="lede">Notes on frontend engineering, performance, and things I learn the hard way.</p>
+
+    <div class="blog-list">
+
+      <div class="blog-item">
+        <div>
+          <h3>Why I stopped reaching for Redux by default</h3>
+          <p>A look at when global state actually earns its complexity, and when it doesn't.</p>
+        </div>
+        <span class="blog-item__date">Jun 2026</span>
+      </div>
+
+      <div class="blog-item">
+        <div>
+          <h3>Auditing a slow React app in one afternoon</h3>
+          <p>A practical checklist for finding the real bottleneck before reaching for memoization.</p>
+        </div>
+        <span class="blog-item__date">Apr 2026</span>
+      </div>
+
+      <div class="blog-item">
+        <div>
+          <h3>Accessibility isn't a checklist, it's a habit</h3>
+          <p>How building with keyboard nav from day one changes the way you write components.</p>
+        </div>
+        <span class="blog-item__date">Feb 2026</span>
+      </div>
+
+      <div class="blog-item">
+        <div>
+          <h3>Design tokens, three years in</h3>
+          <p>What worked, what didn't, and what I'd do differently starting a system from scratch.</p>
+        </div>
+        <span class="blog-item__date">Nov 2025</span>
+      </div>
+
+    </div>
+
+    <p class="footer-note">// built by jordan cruz</p>
+  </div>
+
+</div>
+</body>
+</html>

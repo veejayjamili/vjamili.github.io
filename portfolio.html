@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Portfolio — Veejay Jamili</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+
+  <aside class="sidebar">
+    <div class="avatar">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg>
+    </div>
+    <h1 class="sidebar__name">Veejay Jamili</h1>
+    <span class="sidebar__role">Frontend Developer</span>
+
+    <div class="sidebar__divider"></div>
+
+    <div class="sidebar__info">
+      <div class="info__row">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6l9 6 9-6M3 6v12h18V6"/></svg>
+        <span>
+          <span class="info__label">Email</span>
+          <span class="info__value">veejayjamili@gmail.com</span>
+        </span>
+      </div>
+      <div class="info__row">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-6.4-7-11a7 7 0 1114 0c0 4.6-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>
+          <span class="info__label">Location</span>
+          <span class="info__value">Cebu City, Philippines</span>
+        </span>
+      </div>
+    </div>
+
+    <div class="sidebar__socials">
+      <a href="https://www.linkedin.com/in/veejayjamili/" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 11-.02 5 2.5 2.5 0 01.02-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-1.96 3.76-1.96 4.02 0 4.76 2.65 4.76 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.87 0-2.16 1.46-2.16 2.96V21H9z"/></svg>
+      </a>
+      <a href="https://github.com/fdc-veejay" target="_blank" rel="noopener" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.5 2.87 8.32 6.84 9.67.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.21-3.37-1.21-.45-1.18-1.1-1.5-1.1-1.5-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.55 2.33 1.1 2.9.84.09-.66.34-1.1.62-1.36-2.22-.26-4.56-1.13-4.56-5.02 0-1.11.38-2.02 1.02-2.73-.1-.26-.44-1.31.1-2.73 0 0 .84-.27 2.75 1.04a9.4 9.4 0 015 0c1.9-1.31 2.74-1.04 2.74-1.04.55 1.42.2 2.47.1 2.73.64.71 1.02 1.62 1.02 2.73 0 3.9-2.35 4.76-4.58 5.01.36.32.68.93.68 1.88 0 1.36-.01 2.45-.01 2.79 0 .27.18.6.69.49A10.02 10.02 0 0022 12.25C22 6.58 17.52 2 12 2z"/></svg>
+      </a>
+      <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Twitter / X">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 4h-3.3l-3.2 4.2L9.6 4H4l6.4 8.4L4.3 20h3.3l3.7-4.8L15.4 20H21l-6.8-8.9z"/></svg>
+      </a>
+    </div>
+  </aside>
+
+  <div class="content">
+
+    <nav class="topnav">
+      <a href="index.html">About</a>
+      <a href="resume.html">Resume</a>
+      <a href="portfolio.html" class="active">Portfolio</a>
+      <!-- <a href="blog.html">Blog</a> -->
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <p class="eyebrow">// 03 — portfolio</p>
+    <h2 class="page__title">Selected Work</h2>
+    <div class="title__underline"></div>
+
+    <p class="lede">A handful of projects I've shipped recently. Replace these thumbnails and links with screenshots of your own work.</p>
+
+    <div class="portfolio-grid">
+
+      <div class="project-card">
+        <div class="project-card__thumb">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18"/></svg>
+        </div>
+        <div class="project-card__body">
+          <h3>Northbeam Dashboard</h3>
+          <p>Internal analytics dashboard rebuilt for speed — 40% faster load, fully accessible.</p>
+          <div class="tags"><span>React</span><span>D3.js</span></div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-card__thumb">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 17V7l8-4 8 4v10l-8 4-8-4z"/></svg>
+        </div>
+        <div class="project-card__body">
+          <h3>Cabletown Storefront</h3>
+          <p>Headless commerce storefront with sub-second page transitions and full WCAG AA support.</p>
+          <div class="tags"><span>Next.js</span><span>Tailwind</span></div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-card__thumb">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg>
+        </div>
+        <div class="project-card__body">
+          <h3>OpenTrack Component Kit</h3>
+          <p>Open-source React component library with 40+ accessible, themeable primitives.</p>
+          <div class="tags"><span>TypeScript</span><span>Storybook</span></div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-card__thumb">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 12h18M12 3v18"/></svg>
+        </div>
+        <div class="project-card__body">
+          <h3>Freelance Landing Pages</h3>
+          <p>15+ marketing sites built for speed and conversion — average Lighthouse score of 98.</p>
+          <div class="tags"><span>HTML/CSS</span><span>Vite</span></div>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="footer-note">// built by veejayjamili</p>
+  </div>
+
+</div>
+</body>
+</html>
